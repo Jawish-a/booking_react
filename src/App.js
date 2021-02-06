@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     let myData;
     axios
-      .get("http://booking-tnafos.herokuapp.com/courses/")
+      .get("https://booking-tnafos.herokuapp.com/courses/")
       .then(function (response) {
         // console.log(response);
         myData = response.data;
