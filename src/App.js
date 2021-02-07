@@ -80,7 +80,7 @@ function App() {
             />
           </FormGroup>
           <FormGroup>
-            <Label for="name">الاسم الاخير</Label>
+            <Label for="name">الايميل</Label>
             <Input
               type="text"
               name="email"
@@ -89,7 +89,7 @@ function App() {
             />
           </FormGroup>
           <FormGroup>
-            <Label for="name">الاسم الاخير</Label>
+            <Label for="name">رقم الجوال</Label>
             <Input
               type="text"
               name="mobile"
